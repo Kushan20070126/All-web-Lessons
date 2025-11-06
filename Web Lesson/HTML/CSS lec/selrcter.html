@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Make the text colour of all the h1 element to red */
+        /* 1. By Tag name */
+        h1{
+            color: red;
+        }
+        /* Make the text size of all the paragraph element to 20px */
+        p{
+            font-size: 20px;
+        }
+        /* Make the bacground colour of all the paragraph element to yellow */
+        #intro{
+            background-color: yellow;
+
+        }
+        /* Underline all the hadings in the web page */
+            .Heading{
+                text-decoration: underline;
+            }
+        /* Make the text-colour of all list items inside ordered list to blue */
+        ol>li{
+                color: blue;
+        }
+        /* change  the bacground colour heigth and width of the button when mouse is over the button*/
+        button{
+            border-radius: 10px;
+            padding: 20px;
+            background-color: blue;
+            border: 1px solid blue;
+            color: white;
+
+        }
+        /* Pseudo  selecter*/
+        button:hover{
+            background-color: white;
+            color: rgb(0, 255, 68);
+            padding: 40px;
+        
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="Heading">Web Application Development</h1>
+
+    <p id="intro">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Consectetur modi sapiente nihil sit! Unde ipsa dignissimos
+          iste eaque sapiente nam doloribus reiciendis a natus corrupti!
+           Accusamus eveniet corporis dolorum doloribus.
+    </p>
+
+    <h2 class="Heading">Web Standards</h2>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Ducimus optio non, sapiente, tenetur quidem, 
+        pariatur beatae voluptates labore corporis nulla odio magnam harum quo iste reprehenderit
+        ab accusantium magni a.
+    </p>
+
+    <ol>
+        <li>HTML -Hypertext Markup Language</li>
+        <li>CSS - Cascading style Sheets</li>
+        <li>JS - Javascript</li>
+    </ol>
+
+    <h3 class="Heading">Want to learn more...</h3>
+    <button>CLICK HERE</button>
+    
+</body>
+</html>

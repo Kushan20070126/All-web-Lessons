@@ -1,0 +1,116 @@
+*Colour Code in Bootstrap*
+
+
+-primary : blue
+-secondary : gray
+-success : green
+-warning : orange
+-danger : red
+-info : light blue
+-light : grey
+-dark : black 
+-white : white
+
+Changing Text Colour
+text<Colour code>
+
+
+/***************************************************************************/
+
+Aligning Text Content
+text<dimension>
+-start : left
+-center : center
+-end : end
+-justify : justify the content
+
+/***************************************************************************/
+
+Hading Sizes
+
+display-<size>
+size from [1,2,3,4,5,6]
+
+/***************************************************************************/
+
+Font Weight 
+fw-<weight>
+
+-bold
+-bolder
+-semibold
+-normal
+-light
+-lighter
+
+
+/***************************************************************************/
+
+Font style
+
+fst<style>
+
+-itelic
+-normal
+
+/***************************************************************************/
+Background Colour
+
+bg-<Colour code>
+
+/***************************************************************************/
+paragraph Font size
+
+fs-<size>
+size can be one from [1,2,3,4,5,6]
+
+/***************************************************************************/
+Margins
+
+m-<size>
+size can be from [1,2,3,4,5]
+represent multiples of 10
+
+*Margin for top and bottom both: my-<size>
+*Margin for left and right both: mx-<size>
+*Margin for top: mt-<size>
+*Margin for bottom: mb-<size>
+*Margin for left: ms-<size>
+*Margin for right: me-<size>
+*Margin for auto: auto
+
+/***************************************************************************/
+
+padding 
+
+*Set margins for all the dimension
+p-<size>
+
+size can be one form [1,2,3,4,5,auto]
+
+*padding for top and bottom: py-<size>
+*padding for left and right: px-<size>
+*padding for top: pt-<size>
+*padding for bottom: pb-<size>
+*padding for left: ps-<size>
+*padding for right: pe-<size>
+
+
+
+/***************************************************************************/
+
+Border 
+
+-Adding a Border
+
+Border
+-border colour: border-<colour code>
+-border tickness: border-<tickness>
+    tickness can be one from [1,2,3,4,5]
+
+-border radius: rounded-<radius>
+    radius can be one from [1,2,3,4,5,pill,circle]
+
+
+
+
