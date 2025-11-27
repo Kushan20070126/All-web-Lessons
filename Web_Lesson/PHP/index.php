@@ -6,8 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-   
-    
-    <script src="scripts/sels_manager.js"></script>
+    <h1>Hosted using PHP</h1>
 </body>
 </html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card mt-5">
+                    <div class="card-header">
+                        <h2>Customer Order</h2>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="Customer" class="form-label">Customer Name : </label>
+                                <input type="text" name="Customer" id="Customer" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="Delivary" class="form-label">Delivary Address : </label>
+                                <input type="text" name="Delivary" id="Delivary" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="branch" class="form-label">Nearest Branch : </label>
+                                <select name="branch" id="branch" class="form-select">
+                                    <option value="">Select the Branch</option>
+                                    <option value="CMB">Colombo</option>
+                                    <option value="KD">Kandy</option>
+                                    <option value="GL">Galle</option>
+                                    <option value="MNG">Monaragala</option>
+                                    <option value="VV">Vavuniya</option>
+                                </select>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="weight" class="form-label">Weight (kg) : </label>
+                                 <input type="text" name="weight" id="weight" class="form-control">
+                            </div>
+                            <div class="d-flex justify-content-end">
+                                <button type="button" id="cal" class="btn btn-primary me-3">CHECK</button>
+                                <button type="reset" class="btn btn-danger ms-3">RESET</button>
+                            </div>
+
+                        </form>
+
+                        <div id="result"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="lib/bootstrap.min.js"></script>
+    <script src="lib/jquery.js"></script>
+    <script src="Scripts/delivary.js"></script>
+
+</body>
+</html>

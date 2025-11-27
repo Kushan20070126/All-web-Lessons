@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Property</title>
+    <style>
+
+        div{
+            border: 5px solid red;
+        }
+        #default{
+            height: 150px;
+            width: 150px;
+        }
+        .static{
+            background-color: yellow;
+            height: 200px;
+            width: 150px;
+            /* html default position is static */
+            position: static; 
+            top: 20px;
+            left: 45px;
+        }
+        #relative{
+            height: 150px;
+            width: 150px;
+            background-color: aquamarine;
+            /* element reseve */
+            position: relative;
+            left: 70px;
+            bottom: 100px;
+        }
+        #backgound{
+            background-image: url('image.jpeg');
+            height: 200px;
+            width: 100%;
+            background-size: cover;
+
+        }
+        .container{
+            width: 70%;
+            position: relative;
+            top:0px;
+        }
+
+        #overlay{
+            height: 200px;
+            width: 100%;
+            background-color: rgba(0, 0, 255, 0.438);
+            /* un static position parent  */
+            position: absolute;
+            top: 0px;
+        }
+
+        #fixed{
+            height: 100px;
+            width: 100px;
+            border-radius: 100px;
+            background-color: blue;
+            position: fixed;
+            top: 10px;
+            right: 0px;
+
+        }
+        #sticky{
+            width: 100%;
+            height: 100px;
+            background-color: bisque;
+            position: sticky;
+            top: 0px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div id="default"></div>
+<div id="sticky"></div>
+<div id="relative"></div>
+<div class="static"></div>
+
+
+<div class="container">
+
+<div id="backgound"></div>
+<div id="overlay"></div>
+
+</div>
+<div class="static"></div>
+
+<div id="fixed"></div>
+
+    
+</body>
+</html>
